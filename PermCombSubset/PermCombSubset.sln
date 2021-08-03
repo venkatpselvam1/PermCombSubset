@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "001_PermutationOfWords", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_WordPermutations", "001_WordPermutations\001_WordPermutations.csproj", "{4635EE86-CCCE-4195-B27A-561E61E5FE58}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "002_UniqueSubsets", "002_UniqueSubsets", "{EA3EEF47-D0A1-40A8-AB25-669D5E336F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_UniqueSubsets-Cascading", "001_UniqueSubsets\001_UniqueSubsets-Cascading.csproj", "{0376C800-8AA4-44DD-A1E0-855A7939AF75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,17 @@ Global
 		{4635EE86-CCCE-4195-B27A-561E61E5FE58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4635EE86-CCCE-4195-B27A-561E61E5FE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4635EE86-CCCE-4195-B27A-561E61E5FE58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0376C800-8AA4-44DD-A1E0-855A7939AF75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0376C800-8AA4-44DD-A1E0-855A7939AF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0376C800-8AA4-44DD-A1E0-855A7939AF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0376C800-8AA4-44DD-A1E0-855A7939AF75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4635EE86-CCCE-4195-B27A-561E61E5FE58} = {0B25D2B6-F1CB-4D28-ACCD-583074BEE968}
+		{0376C800-8AA4-44DD-A1E0-855A7939AF75} = {EA3EEF47-D0A1-40A8-AB25-669D5E336F69}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B8ADF3CE-ED2F-4134-A2AE-996AAFEAB798}
