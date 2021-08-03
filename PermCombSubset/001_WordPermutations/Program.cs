@@ -10,7 +10,7 @@ namespace _001_WordPermutations
     {
         static void Main(string[] args)
         {
-            var str = "ab";
+            var str = "aaca";
             var ans = new List<string>();
             GetPermutations(str, ans);
             for(int i = 0; i< ans.Count; i++)
@@ -28,7 +28,10 @@ namespace _001_WordPermutations
             for (int i = ind; i < str.Length; i++)
             {
                 var swappedStr = GetSwappedString(str, ind, i);
-                GetPermutations(swappedStr, ans, ind+1);
+                if (i == ind || str[i] != str[ind])
+                {
+                    GetPermutations(swappedStr, ans, ind + 1);
+                }
             }
         }
         public static string GetSwappedString(string str, int i, int j)
